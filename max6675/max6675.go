@@ -13,7 +13,7 @@ import (
 )
 
 // Error for when no thermocouple is connected
-var errNoTC error = errors.New("No thermocouple is connected")
+var errNoTC error = errors.New("no thermocouple is connected")
 
 // Device struct
 type Device struct {
